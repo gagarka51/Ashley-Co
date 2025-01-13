@@ -3,5 +3,16 @@
     padding: 0;
 }
 .container {
-    max-width: 1440px;
+    width: 1440px;
+    margin: 0 auto;
+}
+.wrapper-block-1 {
+    background-image: url('../img/block-img-1.svg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 12px 0 26px;
 }
