@@ -21,3 +21,37 @@ nav {
     justify-content: space-between;
     padding: 26px 12px 0 26px;
 }
+.nav-menu_right-part {
+    display: flex;
+}
+.basket-block p {
+    color: #262626;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1.2px;
+}
+.burger-block {
+    margin-left: 40px;
+    margin-top: -15px;
+}
+.burger-block button {
+    width: 50px;
+    height: 50px;
+    padding: 20px 15px;
+    position: relative;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.burger_item, .burger_item::after {
+    display: block;
+    width: 20px;
+    height: 2px;
+    top: 20px;
+    background-color: #262626;
+    position: absolute;
+}
+.burger_item::after {
+    content: "";
+    top: 6px;
+}
