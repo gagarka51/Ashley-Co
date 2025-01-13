@@ -1,3 +1,4 @@
+@import url('fonts.css');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,9 @@
 .container {
     width: 1440px;
     margin: 0 auto;
+}
+a, p {
+    font-family: 'Roboto', 'sans-serif';
 }
 .wrapper-block-1 {
     background-image: url('../img/block-img-1.svg');
