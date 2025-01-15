@@ -165,3 +165,6 @@ nav {
     letter-spacing: 0.5px;
     text-align: right;
 }
+.wrapper-block-3 {
+    display: flex;
+}
