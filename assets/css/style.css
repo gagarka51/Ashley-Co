@@ -102,6 +102,9 @@ nav {
     padding-bottom: 5px;
     border-bottom: 1px solid #262626;
 }
+.wrapper-block-1_desc a:hover {
+    border-bottom: 1px dotted #262626;
+}
 .wrapper-block-1_title {
     font-size: 25px;
     line-height: 32px;
@@ -132,6 +135,9 @@ nav {
     border: none;
     border-bottom: 1px solid #F1F1EE;
 }
+.cookie-block button:hover {
+    border-bottom: 1px dotted #F1F1EE;
+}
 .cookie-close {
     display: none;
 }
@@ -160,6 +166,9 @@ nav {
     padding-bottom: 5px;
     color: #B2B2B2;
     border-bottom: 1px solid #B2B2B2;
+}
+.down-block a:hover {
+    border-bottom: 1px dotted #B2B2B2;
 }
 .wrapper-block-2_part-2 p, .wrapper-block-5_part-2 p, .wrapper-block-7_part-2 p {
     margin: 40px 39px 0 0;
@@ -214,6 +223,9 @@ nav {
     border-bottom: 1px solid #262626;
     padding-bottom: 5.48px;
 }
+.wrapper-block-4_text a:hover {
+    border-bottom: 1px dotted #262626;
+}
 .wrapper-block-5 {
     background-color: #a26779;
     display: flex;
@@ -239,6 +251,11 @@ nav {
     padding-bottom: 5px;
     color: #B2B2B2;
     border-bottom: 1px solid #B2B2B2;
+}
+.wr-bl-5_down-block a:hover,
+.wr-bl-7_down-block a:hover,
+.wr-bl-8_down-block a:hover {
+    border-bottom: 1px dotted #B2B2B2;
 }
 .wrapper-block-6 {
     position: relative;
@@ -275,6 +292,9 @@ nav {
     padding-bottom: 5px;
     color: #262626;
     border-bottom: 1px solid #262626;
+}
+.product-info a:hover {
+    border-bottom: 1px dotted #262626;
 }
 .wrapper-block-7 {
     margin-top: -5px;
@@ -348,6 +368,9 @@ nav {
     background: none;
     border-bottom: 1px solid #cccccc;
     margin-bottom: 8px;
+}
+.footer-block form .form_item input:hover {
+    border-bottom: 1px dotted #cccccc;
 }
 .footer-block form .form_item input:first-child {
     margin-right: 20px;
