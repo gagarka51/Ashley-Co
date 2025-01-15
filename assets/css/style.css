@@ -132,6 +132,9 @@ nav {
     border: none;
     border-bottom: 1px solid #F1F1EE;
 }
+.cookie-close {
+    display: none;
+}
 .wrapper-block-2 {
     background-color: #9c8554;
     display: flex;
