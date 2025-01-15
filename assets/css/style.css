@@ -8,7 +8,7 @@
     margin: 0 auto;
     position: relative;
 }
-a, p {
+a, p, label, input {
     font-family: 'Roboto', 'sans-serif';
 }
 a {
@@ -309,4 +309,58 @@ nav {
     line-height: 32px;
     letter-spacing: 0.5px;
     text-align: right;
+}
+.footer-block {
+    background-color: #262626;
+    color: #cccccc;
+    padding: 48px 0 57px 40px;
+}
+.footer-block_up-part {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-block p {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    margin-bottom: 21px;
+}
+.footer-block .square {
+    width: 16px;
+    height: 16px;
+    margin-right: 42px;
+    background: #cccccc;
+}
+.footer-block form {
+    display: flex;
+}
+.footer-block form .form_item {
+    display: flex;
+    flex-direction: column;
+}
+.footer-block form .form_item input {
+    width: 280px;
+    height: 25px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 8px;
+}
+.footer-block form .form_item input:first-child {
+    margin-right: 20px;
+}
+.footer-block form .form_item label {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+.footer-block form .btn-sub {
+    background: none;
+    border: none;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 1.2px;
+    color: #cccccc;
+    padding-top: 26px;
+    margin-left: 5px;
 }
