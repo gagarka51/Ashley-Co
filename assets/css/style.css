@@ -168,3 +168,46 @@ nav {
 .wrapper-block-3 {
     display: flex;
 }
+.wrapper-block-4 {
+    background-color: #EBEBEB;
+    display: flex;
+    padding: 115.81px 25px 115.83px 25px;
+    color: #262626;
+}
+.wrapper-block-4 img {
+    margin-right: 29.83px;
+}
+.wrapper-block-4_text {
+    margin-top: 127.19px;
+    letter-spacing: 0.5px;
+}
+.wrapper-block-4_text p:first-child {
+    font-size: 15px;
+    line-height: 19px;
+}
+.wrapper-block-4_text p:nth-child(2) {
+    font-size: 28px;
+    line-height: 32px;
+    width: 234px;
+    margin-top: 11px;
+}
+.wrapper-block-4_text p:nth-child(3) {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 39px;
+    width: 285px;
+}
+.wrapper-block-4_text p:nth-child(4) {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 0 21px 0;
+    width: 308px;
+}
+.wrapper-block-4_text a {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 1.2px;
+    color: #262626;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 5.48px;
+}
