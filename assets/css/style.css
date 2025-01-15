@@ -132,3 +132,7 @@ nav {
     border: none;
     border-bottom: 1px solid #F1F1EE;
 }
+.wrapper-block-2 {
+    background-color: #9c8554;
+    display: flex;
+}
