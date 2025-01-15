@@ -135,4 +135,12 @@ nav {
 .wrapper-block-2 {
     background-color: #9c8554;
     display: flex;
+    padding-left: 40px;
+}
+.wrapper-block-2_part-1 {
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #B2B2B2;
 }
