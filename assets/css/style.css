@@ -6,9 +6,13 @@
 .container {
     width: 1440px;
     margin: 0 auto;
+    position: relative;
 }
 a, p {
     font-family: 'Roboto', 'sans-serif';
+}
+a {
+    text-decoration: none;
 }
 .wrapper-block-1 {
     background-color: #e7f066;
@@ -78,4 +82,30 @@ nav {
 .burger_item::after {
     content: "";
     top: 6px;
+}
+.wrapper-block-1_desc {
+    width: 275px;
+    margin: 119px 45px 0 1120px;
+}
+.wrapper-block-1_desc p {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    margin-bottom: 21px;
+    color: #262626;
+}
+.wrapper-block-1_desc a {
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 1.2px;
+    color: #262626;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #262626;
+}
+.wrapper-block-1_title {
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin: 450px 0 0 40px;
+    padding-bottom: 40px;
 }
