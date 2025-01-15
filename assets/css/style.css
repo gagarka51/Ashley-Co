@@ -135,12 +135,33 @@ nav {
 .wrapper-block-2 {
     background-color: #9c8554;
     display: flex;
-    padding-left: 40px;
+    justify-content: space-between;
+    padding: 0 0 40px 40px;
+    color: #B2B2B2;
 }
 .wrapper-block-2_part-1 {
     margin-top: 39px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.down-block p {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    width: 278px;
+    margin-bottom: 22px;
+}
+.down-block a {
+    text-transform: uppercase;
+    padding-bottom: 5px;
     color: #B2B2B2;
+    border-bottom: 1px solid #B2B2B2;
+}
+.wrapper-block-2_part-2 p {
+    margin: 40px 39px 0 0;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: right;
 }
