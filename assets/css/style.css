@@ -237,3 +237,39 @@ nav {
     color: #B2B2B2;
     border-bottom: 1px solid #B2B2B2;
 }
+.wrapper-block-6 {
+    position: relative;
+}
+.wrapper-block-6 .product-info {
+    position: absolute;
+    top: 119px;
+    left: 40px;
+    color: #262626;
+}
+.product-info p:first-child {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+.product-info P:nth-child(2) {
+    margin-top: 11px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+}
+.product-info P:nth-child(3) {
+    margin-top: 39px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    width: 278px;
+}
+.product-info a {
+    margin-top: 3px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 1.2px;
+    padding-bottom: 5px;
+    color: #262626;
+    border-bottom: 1px solid #262626;
+}
