@@ -88,7 +88,6 @@ nav {
 }
 .sub-show {
     display: block;
-    transition: 0.5s;
 }
 .nav-menu_sub li {
     list-style-type: none;
@@ -407,4 +406,5 @@ nav {
     color: #cccccc;
     padding-top: 26px;
     margin-left: 5px;
+    cursor: pointer;
 }
