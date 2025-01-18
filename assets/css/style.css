@@ -86,6 +86,10 @@ nav {
     top: 6%;
     right: 1.8%;
 }
+.sub-show {
+    display: block;
+    transition: 0.5s;
+}
 .nav-menu_sub li {
     list-style-type: none;
     margin-bottom: 5px;
